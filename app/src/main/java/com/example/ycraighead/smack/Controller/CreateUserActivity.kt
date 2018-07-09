@@ -76,18 +76,18 @@ class CreateUserActivity : AppCompatActivity() {
                                     pauseUI(false)
                                     finish()
 
-                                } else errorToast()
+                                } else errorToast("CreateUser")
                             }
-                        } else errorToast()
+                        } else errorToast("LogInUser")
                     }
-                } else errorToast()
+                } else errorToast("RegisterUser")
             }
-        } else errorToast()
+        } else errorToast("the Account Details")
 
     }
 
-    fun errorToast(){
-        Toast.makeText(this, "Something went wrong, please try again", Toast.LENGTH_LONG).show()
+    fun errorToast(msg: String){
+        Toast.makeText(this, "Something went wrong with $msg , please try again", Toast.LENGTH_LONG).show()
         pauseUI(false)
     }
 

@@ -8,6 +8,7 @@
     android:background="@color/colorPrimary"
     android:gravity="bottom"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView

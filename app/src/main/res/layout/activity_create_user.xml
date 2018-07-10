@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controller.CreateUserActivity">
+    tools:context="com.example.ycraighead.smack.Controller.CreateUserActivity">
 
     <EditText
         android:id="@+id/createUserNameText"
@@ -123,5 +123,4 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </android.support.constraint.ConstraintLayout>
